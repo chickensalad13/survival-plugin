@@ -1,0 +1,21 @@
+name: survival
+version: ${project.version}
+main: net.chickensalad.survival.Survival
+api-version: 1.17
+author: chickensalad13
+commands:
+  message:
+    description: Send a message to a player.
+    aliases: [msg, tell, m]
+  reply:
+    description: Replies to the previously messaged player.
+    aliases: [r, respond]
+  tpa:
+    description: Request to teleport to a player
+    aliases: [tpask]
+  tpaccept:
+    description: Accept a teleport request.
+    aliases: [tpyes]
+  tpdeny:
+    description: Reject a teleport request.
+    aliases: [tpno]
